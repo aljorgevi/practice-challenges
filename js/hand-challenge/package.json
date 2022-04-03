@@ -1,0 +1,23 @@
+{
+  "name": "hand-challenge",
+  "version": "1.0.0",
+  "description": "You find a strange mirror that always shows a hand that is moving. The hand appears to be alive, and after a lot of questions of \"yes\" and \"no\" answer, you know that the hand is trying to teach you a program that is written in HPL (Hand Programming Language).",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Jorge Mena <jormencar@yahoo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "jest": "27.5.1",
+    "standard": "16.0.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json",
+      "prettier"
+    ]
+  }
+}
