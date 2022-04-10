@@ -44,6 +44,7 @@ const prettifyCocktailsResult = ({
   });
 };
 
+
 const showCocktailsWithIngredientsQuantites = ({ cocktails }) => {
   const prettyCocktails = prettifyCocktailsResult({
     cocktails,
