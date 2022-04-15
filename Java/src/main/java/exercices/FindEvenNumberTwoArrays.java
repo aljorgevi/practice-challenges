@@ -5,6 +5,11 @@ import java.util.function.IntPredicate;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+/*
+*   Find the even numbers in two arrays and return a new array.
+* */
+
+
 public class FindEvenNumberTwoArrays {
     public static int[] findEvenNum(int[] arr1, int[] arr2) {
         IntPredicate predicate = x -> x % 2 == 0;
