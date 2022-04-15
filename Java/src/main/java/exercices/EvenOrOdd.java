@@ -14,5 +14,6 @@ public class EvenOrOdd {
     System.out.println("Enter a number: ");
     int userNum = scanner.nextInt();
     System.out.println("Is the number even? " + isEven(userNum));
+
   }
 }
