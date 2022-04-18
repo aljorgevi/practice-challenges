@@ -6,6 +6,7 @@
   Returns a correct 3x2 array of zeroes, which looks like [[0, 0], [0, 0], [0, 0]].
 */
 
+
 function zeroArray(rows, columns) {
 	let newArray = []
 
