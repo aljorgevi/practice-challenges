@@ -6,15 +6,23 @@
 */
 
 function filteredArray(arr, elem) {
-    const newArray = []
+  const newArray = [];
 
-    for(let i =0; i < arr.length; i++) {
-        if(arr[i].indexOf(elem) === -1) {
-            newArray.push(arr[i])
-        }
+ arr.forEach(arr => {
+    if (arr.indexOf(elem) === -1) {
+      newArray.push(arr)
     }
+  });
 
-    return newArray;
+  /*
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].indexOf(elem) === -1) {
+      newArr.push(arr[i]);
+    }
+  }
+  */
+
+  return newArray;
 }
 
 console.log(
@@ -28,3 +36,5 @@ console.log(
         99
     )
 )
+
+// expected output: [ [ 19, 3, 9 ] ]
