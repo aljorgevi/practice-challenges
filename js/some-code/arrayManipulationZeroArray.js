@@ -7,6 +7,7 @@
 */
 
 
+
 function zeroArray(rows, columns) {
 	let newArray = []
 
