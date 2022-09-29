@@ -129,7 +129,7 @@ function getRating(watchList) {
     const { Director, imdbRating } = el
 
     if(Director === "Christopher Nolan") {
-      acc.sumOfMovies++
+      acc.sumOfMovies++¡
       acc.sumOfRaiting += Number(imdbRating)
     }
 
